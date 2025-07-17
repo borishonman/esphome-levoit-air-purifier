@@ -77,7 +77,7 @@ using PayloadTypeOverrideMap = std::unordered_map<LevoitDeviceModel, std::unorde
 static const PayloadTypeOverrideMap MODEL_SPECIFIC_PAYLOAD_TYPES = {
     {LevoitDeviceModel::CORE_400S,
      {
-         {LevoitPayloadType::STATUS_REQUEST, 0x01b140}, {LevoitPayloadType::STATUS_RESPONSE, 0x01b040},
+         {LevoitPayloadType::STATUS_REQUEST, 0x01b240}, {LevoitPayloadType::STATUS_RESPONSE, 0x01b240},
          // ... add other model-specific overrides here ...
      }},
      {LevoitDeviceModel::CORE_200S,
